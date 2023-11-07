@@ -10,9 +10,9 @@
 }
  
 body {
-  font-family: 'Nunito sans', 'Open sans', Arial, sans-serif; 
+  font-family: 'Nunito sans', 'Open sans', Arial, sans-serif;
   background-color: #191720;
-  color:#fff;
+  color: #fff;
   letter-spacing: 0.3px;
 }
  
@@ -35,9 +35,13 @@ section {
   border: 2px solid #2a2a2b;
   margin: 15px;
 }
-
-.content-box:first-of-type {
-    margin-top: 40px;
+ 
+.content-box:first-of-type{
+  margin-top: 40px;
+}
+ 
+.content-box:last-of-type {
+  height: auto;
 }
  
 .heading {
@@ -55,21 +59,17 @@ section {
 p + p {
   margin-top: 3px;
 }
-
-.content-box:last-of-type {
-    height: auto;
-}
  
 .network {
   height: 45px;
   width: 300px;
+  margin-top: 15px;
   text-transform: uppercase;
   text-align: center;
   line-height: 45px;
   border-radius: 8px;
   background-color: #33ab4e;
+  font-size: 16px;
   color: #fff;
   font-weight: 500;
-  font-size: 16px;
-  margin-top: 15px;
 }
